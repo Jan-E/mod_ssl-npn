@@ -13,4 +13,6 @@ It is strongly recommended that you use mod_h2, which is included in httpd since
 
 Not tested with mod_spdy, use at your own risk.
 
+mod_h2 will not advertise h2 through NPN, but only ALPN
+
 Issues and PRs are welcomed.
